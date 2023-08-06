@@ -10,3 +10,20 @@ api handel in frontend
 Fetch:
 JSON.stringify()
 JSON.parse()
+
+Hooks
+React Hook that allows you to add state to a functional component
+
+
+Param hooks (useParams )
+lets you read a route's dynamic params filled in by the current URL.
+ <Router>
+<Routes>
+    <Route path="/hello1" element={<ParamHooks />} />
+    <Route path="/hello1/:id" element={<Details />} />
+</Routes>
+</Router>
+
+useEffect()
+useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating
+
