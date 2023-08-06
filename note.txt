@@ -1,0 +1,12 @@
+Api get,post
+
+get data nia asa
+post data nia asa and nia jai
+
+api handel in frontend
+
+2 way one is fetch, and other is axios
+
+Fetch:
+JSON.stringify()
+JSON.parse()
