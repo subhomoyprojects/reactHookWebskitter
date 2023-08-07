@@ -1,0 +1,48 @@
+.main {
+  padding-block: 70px;
+}
+.tabBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #e3c16b;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.tabBox-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #a05f5f;
+}
+.tabBox-header > li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.tabBox-header > li > * {
+  background-color: transparent;
+  border: none;
+  padding: 0 0 5px;
+  color: #812c02;
+  position: relative;
+}
+.tabBox-header > li > *::after {
+  content: "";
+  background-color: #812c02;
+  height: 3px;
+  position: absolute;
+  transform: scaleX(0);
+  opacity: 0;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  transition: all 0.3s;
+}
+.tabBox-header > li > .active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
