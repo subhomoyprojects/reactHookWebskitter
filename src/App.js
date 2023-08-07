@@ -1,5 +1,4 @@
 // import ApiHandel from "./ApiHandel";
-import "./App.css";
 import Details from "./Details";
 import ParamHooks from "./ParamHooks";
 // import ImageOnOff from "./ImageOnOff";
