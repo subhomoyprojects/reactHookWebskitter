@@ -46,3 +46,30 @@
   opacity: 1;
   transform: scaleX(1);
 }
+.img-holder {
+  line-height: 0;
+  margin-block: 20px;
+}
+
+.img-holder > img {
+  border-radius: 10px;
+}
+
+.ingredient {
+  padding-left: 0;
+  margin-left: 15px;
+}
+
+.ingredient li {
+  font-size: 14px;
+  color: #812c02;
+  font-weight: 500;
+}
+
+.ingredient li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.tab-body > .item:not(.show) {
+  display: none;
+}
