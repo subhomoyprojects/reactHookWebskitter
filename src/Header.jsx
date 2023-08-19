@@ -29,6 +29,11 @@ export default function Header() {
                   Param Hooks
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/parent">
+                  Parent
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

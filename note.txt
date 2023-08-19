@@ -27,3 +27,5 @@ lets you read a route's dynamic params filled in by the current URL.
 useEffect()
 useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating
 
+memo is a hooks which prevent to load the child component if you not change this component.
+

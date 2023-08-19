@@ -6,6 +6,7 @@ import ParamHooks from "./ParamHooks";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TabBox from "./TabBox";
 import Header from "./Header";
+import Parent from "./Parent";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/param" element={<ParamHooks />} />
           <Route path="/hello1/:id" element={<Details />} />
           <Route path="/" element={<TabBox />} />
+          <Route path="/parent" element={<Parent />} />
         </Routes>
       </Router>
     </div>
