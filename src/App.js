@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TabBox from "./TabBox";
 import Header from "./Header";
 import Parent from "./Parent";
+import Master from "./Siblings/Master";
+import Subhomoy from "./Subhomoy";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/hello1/:id" element={<Details />} />
           <Route path="/" element={<TabBox />} />
           <Route path="/parent" element={<Parent />} />
+          <Route path="/master" element={<Master />} />
+          <Route path="/subhomoy" element={<Subhomoy />} />
         </Routes>
       </Router>
     </div>

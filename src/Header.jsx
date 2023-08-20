@@ -34,6 +34,16 @@ export default function Header() {
                   Parent
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/master">
+                  Master
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/subhomoy">
+                  Use Reducer
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
