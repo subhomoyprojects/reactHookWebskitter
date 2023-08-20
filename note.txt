@@ -29,3 +29,4 @@ useEffect Hook allows you to perform side effects in your components. Some examp
 
 memo is a hooks which prevent to load the child component if you not change this component.
 
+useReducer is a hooks same as useState but it works globally. And it's use for complex system.
