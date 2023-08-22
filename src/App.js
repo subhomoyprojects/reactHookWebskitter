@@ -9,6 +9,8 @@ import Header from "./Header";
 import Parent from "./Parent";
 import Master from "./Siblings/Master";
 import Subhomoy from "./Subhomoy";
+import ReducerTab from "./ReactReducer/ReducerTab";
+import ReducerApi from "./ReactReducer/ReducerApi";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/parent" element={<Parent />} />
           <Route path="/master" element={<Master />} />
           <Route path="/subhomoy" element={<Subhomoy />} />
+          <Route path="/reducerTab" element={<ReducerTab />} />
+          <Route path="/reducerApi" element={<ReducerApi />} />
         </Routes>
       </Router>
     </div>

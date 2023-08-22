@@ -44,6 +44,16 @@ export default function Header() {
                   Use Reducer
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/reducerTab">
+                  Reducer Tab
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/reducerApi">
+                  Reducer Api
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

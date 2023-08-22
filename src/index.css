@@ -8,7 +8,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
 img {
   max-width: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  padding: 50px 0;
+  background: #e2f7cc url("../src/images/bg.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: calc(100vh - 56px);
+  position: relative;
+  overflow: auto;
+  scrollbar-width: auto;
+  scrollbar-color: #4aa884 #ffffff;
+}
+main::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+main::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+main::-webkit-scrollbar-thumb {
+  background-color: #4aa884;
+  border-radius: 10px;
+}
+main.no-bg {
+  background-color: #e2f7cc;
+  background-image: none;
 }
