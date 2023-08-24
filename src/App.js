@@ -11,6 +11,7 @@ import Master from "./Siblings/Master";
 import Subhomoy from "./Subhomoy";
 import ReducerTab from "./ReactReducer/ReducerTab";
 import ReducerApi from "./ReactReducer/ReducerApi";
+import LightOnOffReducer from "./ReactReducer/LightOnOffReducer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/subhomoy" element={<Subhomoy />} />
           <Route path="/reducerTab" element={<ReducerTab />} />
           <Route path="/reducerApi" element={<ReducerApi />} />
+          <Route path="/lightOnOffReducer" element={<LightOnOffReducer />} />
         </Routes>
       </Router>
     </div>

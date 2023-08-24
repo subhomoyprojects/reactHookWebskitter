@@ -54,6 +54,11 @@ export default function Header() {
                   Reducer Api
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/lightOnOffReducer">
+                  Light On Off
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
