@@ -12,6 +12,7 @@ import Subhomoy from "./Subhomoy";
 import ReducerTab from "./ReactReducer/ReducerTab";
 import ReducerApi from "./ReactReducer/ReducerApi";
 import LightOnOffReducer from "./ReactReducer/LightOnOffReducer";
+import ProductDetails from "./ReactReducer/ProductDetails";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/reducerTab" element={<ReducerTab />} />
           <Route path="/reducerApi" element={<ReducerApi />} />
           <Route path="/lightOnOffReducer" element={<LightOnOffReducer />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
         </Routes>
       </Router>
     </div>
